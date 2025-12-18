@@ -1,0 +1,106 @@
+You are a senior software engineer, system designer, and EdTech architect.
+
+Build a production-grade web application called:
+
+"PrepOS – Intelligent DSA Placement Preparation Platform"
+
+This platform must be inspired by Striver’s A2Z DSA Sheet from TakeUForward
+(https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z),
+but MUST NOT scrape or copy proprietary content.
+
+GOAL:
+Create a smart, ethical, scalable placement preparation system that
+guides students through DSA using structured roadmap, pattern-based learning,
+analytics, and adaptive recommendations.
+
+TARGET USERS:
+2nd–4th year CSE students preparing for FAANG and product-based companies.
+
+TECH STACK:
+Frontend:
+- React + TypeScript
+- Tailwind CSS
+- Framer Motion
+
+Backend:
+- Node.js + Express
+- MongoDB
+- Redis (optional)
+
+Auth:
+- JWT + Google OAuth
+
+CORE FEATURES:
+
+1. DSA ROADMAP ENGINE
+- Use A2Z sheet ONLY as a roadmap reference.
+- Create your own structured dataset:
+  - Topic
+  - Subtopic
+  - Pattern
+  - Difficulty
+  - External Practice Link
+- Do NOT store problem statements.
+
+2. LEGAL QUESTION FETCHING
+- Fetch problem metadata ONLY from:
+  - LeetCode public GraphQL APIs
+  - Codeforces public APIs
+  - Open-source GitHub datasets
+- Store:
+  - Problem title
+  - Difficulty
+  - URL
+  - Tags
+- Never scrape private content.
+
+3. PATTERN-BASED LEARNING
+- Each problem belongs to:
+  - Topic (Array, Graph, DP)
+  - Pattern (Sliding Window, Two Pointers, DP on Subsequences)
+- Enable pattern-wise learning paths.
+
+4. ADAPTIVE RECOMMENDATION SYSTEM
+- Track:
+  - Solve count
+  - Accuracy
+  - Time spent
+- Recommend problems dynamically based on weaknesses.
+
+5. PROGRESS & ANALYTICS
+- Topic completion %
+- Pattern mastery score
+- Daily streaks
+- Weak area detection
+
+6. DASHBOARD
+- Visual progress charts
+- Today’s recommended problems
+- Remaining roadmap
+
+7. GAMIFICATION
+- XP points
+- Badges
+- Weekly leaderboards
+
+8. ADMIN PANEL
+- Add/edit topics & patterns
+- Map problems to roadmap
+- Manage difficulty levels
+
+NON-FUNCTIONAL REQUIREMENTS:
+- Clean architecture
+- Scalable REST APIs
+- Secure auth
+- Mobile-responsive UI
+
+DELIVERABLES:
+1. High-level system architecture
+2. MongoDB schema
+3. REST API design
+4. Recommendation algorithm logic
+5. Sample dataset (JSON)
+6. GitHub-ready folder structure
+7. Resume-ready project description
+
+I
